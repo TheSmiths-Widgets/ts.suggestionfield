@@ -1,5 +1,7 @@
 (function constructor(args) {
     $.input.applyProperties(args);
+    $.suggestions.applyProperties(args.suggestions);
+
     setSuggestionPanel();
     handleInputEvents();
     handleSuggestionPanelEvents();
