@@ -1,0 +1,13 @@
+{
+	"id": "ts.suggestionfield",
+	"name": "ts.suggestionfield",
+	"description" : "Provide autocomplete feature for your testfields with external data source",
+	"author": "The Smiths [Duy Bao Nguyen]",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2015",
+	"license":"Apache 2.0",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"suggestion, thesmiths, textfield, titanium, appcelerator",
+	"platforms":"android, ios"
+}
