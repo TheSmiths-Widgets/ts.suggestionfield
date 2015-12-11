@@ -1,15 +1,31 @@
-".container": {
-	backgroundColor:"white"
+"#mapview" : {
+    region : {
+        latitude: 52.373698,
+        longitude: 4.886902,
+        latitudeDelta: 0.02,
+        longitudeDelta: 0.02
+    }
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
-"#label": {
-	font: {
-		fontSize: 12
-	}
-}
+'#searchbox' : {
+    height : 50,
+    top : 25,
+    borderRadius : 3,
+    backgroundColor : '#FFFFFF',
+    hintText : 'Search',
+    clearButtonMode : Titanium.UI.INPUT_BUTTONMODE_ONFOCUS,
+    returnKeyType: Titanium.UI.RETURNKEY_SEARCH,
+    color : '#000',
+    zIndex: 1,
+    width: '85%',
+    paddingLeft: 15,
+    suggestions: {
+        bottom : 15,
+        height: Ti.UI.SIZE,
+        visible : false,
+        opacity : 0,
+        footerTitle : null,
+        backgroundColor : '#FFFFFF',
+        zIndex: 10
+    }
+},

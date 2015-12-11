@@ -1,5 +1,11 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+    <Window class="container">
+        <View id="mapview" module="ti.map">
+            <!-- Starting with Alloy 1.4.0, use the Annotation tag to define an annotation -->
+            <!-- Prior to Alloy 1.4.0, create annotations in the controller -->
+            <Annotation id='appcHQ' myid='1' />
+        </View>
+
+        <Widget id="searchbox" hintText="Search Google Maps" src="ts.suggestionfield" onChange="handleChange" onExportData="handleExportData"></Widget>
+    </Window>
 </Alloy>

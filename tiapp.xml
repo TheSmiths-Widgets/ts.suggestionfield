@@ -34,6 +34,12 @@
 				<false/>
 				<key>UIStatusBarStyle</key>
 				<string>UIStatusBarStyleDefault</string>
+				<key>NSLocationAlwaysUsageDescription</key>
+				<string>
+					Specify the reason for accessing the user's location information.
+					This appears in the alert dialog when asking the user for permission to
+					access their location.
+				</string>
 			</dict>
 		</plist>
 	</ios>
@@ -49,6 +55,8 @@
 		<theme>default</theme>
 	</mobileweb>
 	<modules>
+		<module platform="iphone">ti.map</module>
+		<module platform="android">ti.map</module>
 	</modules>
 	<deployment-targets>
 		<target device="android">true</target>
