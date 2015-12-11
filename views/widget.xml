@@ -1,5 +1,0 @@
-<Alloy>
-    <TextField id="input" />
-    <!-- OVERLAY -->
-    <TableView id="suggestions" />
-</Alloy>
